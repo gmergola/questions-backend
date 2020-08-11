@@ -1,4 +1,4 @@
-\c family-feud
+-- \c family-feud
 
 DROP TABLE IF EXISTS answer_options;
 DROP TABLE IF EXISTS answers;

@@ -41,15 +41,6 @@ class Question {
       throw new ExpressError(`No such Question with question_main: ${question_main}`, 404);
     }
 
-    /**answers = [
-     * {question, answer, vote, id, answer_option}
-     * {question, answer, vote, id, answer_option}
-     * {question, answer, vote, id, answer_option}
-     * {question, answer, vote, id, answer_option}
-     * {question, answer, vote, id, answer_option}
-     * {question, answer, vote, id, answer_option}
-     * ] */
-
     function structureAnswers() {
       let answersData = [];
       let seenAnswers = [];
